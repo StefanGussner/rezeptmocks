@@ -1,0 +1,83 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    --paper-input-container-color: #01579B;
+    --colorAccent: #01579B;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.box{
+    box-shadow: 0 1px 2px #AAA;    
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.recipe{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+img{
+    border-radius: 20px;
+    width: 90%;
+}
+
+h2{
+    height: 2ex;
+    width: 200px;
+    background: #AAA;
+    border-radius: 1ex;
+}
+
+.line{
+    height: 1ex;
+    width: 100%;
+    background: #AAA;
+    margin: 20px 0px;
+    border-radius: 0.5ex;
+}
+
+paper-button{
+    color:#01579B;
+    font-weight: 600;
+}
+
+
+
+.btns{
+    margin-top: 50px;
+}
+
+.filter{
+    display:grid;
+    grid-template-columns: 3fr 0.5fr 1fr;
+}
+
+.filter paper-button{
+    margin-top: 20px;
+}
+
+#more{
+    height: 30px;
+}
+
+li .line{
+    display: inline-block;
+    margin: 0px;
+    width: 60%;
+}
+
+#delete{
+    height: 25px;
+}
+
+.time{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
